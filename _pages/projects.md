@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Materials
+permalink: /materials/
+description: Here are some of my talks and posters.
 nav: true
-nav_order: 2
-display_categories: [work, fun]
+nav_order: 4
+display_categories: [talks, posters]
 horizontal: false
 ---
 

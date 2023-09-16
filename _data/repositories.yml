@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - jessicabavaresco
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - jessicabavaresco/experimental-SDI-causality
+  - jessicabavaresco/resource-theory-causal-connection
+  - mtcq/unitary_channel_discrimination
+  - mtcq/channel_discrimination
+  - jessicabavaresco/SDI-causality
+  - jessicabavaresco/most-incompatible-measurements
