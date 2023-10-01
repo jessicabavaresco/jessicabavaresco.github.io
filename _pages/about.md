@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-description: Postdoctoral researcher | <a href='https://www.unige.ch/gap/qic/theory/team'>Department of Applied Physics</a>, University of Geneva | Geneva, Switzerland <br>
+description: SNSF Postdoctoral Fellow | <a href='https://www.unige.ch/gap/qic/'>Department of Applied Physics</a>, University of Geneva | Geneva, Switzerland <br>
 
 
 profile:
@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, my name is Jessica Bavaresco. I'm a quantum information scientist. Currently, I am a postdoctoral researcher in the <a href='https://www.unige.ch/gap/qic/theory/team'>group</a> of Prof. Nicolas Brunner at the University of Geneva, Switzerland. Starting in October 2023, I will be carrying out an <a href='https://www.snf.ch/en/m1NtWp4nTELQixlu/funding/horizon-europe-swiss-postdoctoral-fellowships'>SNSF Swiss Post-doctoral Fellowship</a> in the same group.
+Hi, my name is Jessica Bavaresco. I'm a quantum information scientist. Currently, I am carrying out an <a href='https://www.snf.ch/en/m1NtWp4nTELQixlu/funding/horizon-europe-swiss-postdoctoral-fellowships'>SNSF Swiss Postdoctoral Fellowship</a> in the <a href='https://www.unige.ch/gap/qic/theory/team'>Quantum Theory Group</a> of Prof. Nicolas Brunner at the University of Geneva, Switzerland. 
 
 I obtained a PhD in Physics from the University of Vienna, Austria, in 2021.
 
