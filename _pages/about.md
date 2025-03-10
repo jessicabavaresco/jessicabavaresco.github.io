@@ -27,7 +27,7 @@ Hi, my name is Jessica Bavaresco. As of 2025, I'm a permanent research scientist
 
 My main research interests are in higher-order operations and quantum correlations. Some of the topics I have worked on recently involve quantum networks, Bell nonlocality, channel discrimination, genuine multipartite entanglement, metrology, boxworld correlations, and indefinite causal order.
 
-I was previously a SNSF Swiss Postdoctoral Fellow at the University of Geneva, Switzerland (2022-2025) and before that, I postdoc in the Young Independent Research Group (YIRG), at IQOQI Vienna, Austria (2021-2022). I obtained a PhD in pshysics at the University of Vienna, Austria, in 2021. 
+I was previously a SNSF Swiss Postdoctoral Fellow at the University of Geneva, Switzerland (2022-2025) and before that, I was a postdoc in the Young Independent Research Group (YIRG) at IQOQI Vienna, Austria (2021-2022). I obtained a PhD in physics at the University of Vienna, Austria, in 2021. 
 
 Here you will find a collection of all my papers and theses, code repositories, some of my talks and posters, my CV, and recent news.
 
