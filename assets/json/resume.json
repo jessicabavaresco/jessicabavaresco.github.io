@@ -5,11 +5,11 @@
     "image": "",
     "birth": "",
     "nationality": "",
-    "email": "jessica.bavaresco@unige.ch",
-    "phone": " +41 22 379 05 00 ",
-    "url": "https://www.unige.ch/gap/qic/theory/team",
+    "email": "jessica.bavaresco (at) lip6.fr",
+    "phone": " +33 1 44 27 87 66 ",
+    "url": "https://qi.lip6.fr/team/",
     "summary": "",
-    "address": "Rue de l'Ecole-de-Médicine 20, 1205 Geneva, Switzerland",
+    "address": "Room 25-26/325, 4 Pl. Jussieu, 75005 Paris, France",
     "location": {
       "address": "",
       "postalCode": "",
@@ -27,11 +27,22 @@
   },
   "work": [
     {
+        "name": "LIP6, CNRS & Sorbonne University, France",
+        "position": "Permanent research scientist (chargée de recherche)",
+        "url": "https://qi.lip6.fr/team/",
+        "startDate": "2025-02-01",
+        "endDate": "",
+        "summary": "",
+        "highlights": [
+          "Team: Quantum Information (QI) Team"
+        ]
+      },
+    {
       "name": "Department of Applied Physics, University of Geneva, Switzerland",
-      "position": "SNSF Postdoctoral Fellow",
+      "position": "SNSF Postdoctoral Fellow (maître assistante)",
       "url": "https://www.unige.ch/gap/qic/theory/team",
       "startDate": "2023-10-01",
-      "endDate": "",
+      "endDate": "2025-01-31",
       "summary": "",
       "highlights": [
         "Supervisor: Prof. Nicolas Brunner",
@@ -71,7 +82,7 @@
       "summary": "",
       "highlights": [
         "Supervisor: Prof. Marcus Huber",
-        "Group: Quantum Information and Thermodynamics"
+        "Group: Quantum Information and Thermodynamics (QUIT)"
       ]
     }
   ],

@@ -2,8 +2,8 @@ github_users:
   - jessicabavaresco
 
 github_repos:
-  - jessicabavaresco/experimental-SDI-causality
-  - jessicabavaresco/resource-theory-causal-connection
+  - mtcq/switch_simulation
+  - jessicabavaresco/singleshot-bayesian-estimation
   - mtcq/unitary_channel_discrimination
   - mtcq/channel_discrimination
   - jessicabavaresco/SDI-causality

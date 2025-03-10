@@ -1,22 +1,79 @@
 ---
 ---
 
-@misc{bavaresco2023bavaresco,
-  author = {Jessica Bavaresco and Patryk Lipka-Bartosik and Pavel Sekatski and Mohammad Mehboudi},
+@misc{bavaresco2024indefinite,
+  author = {Jessica Bavaresco and \"Amin Baumeler and Yelena Guryanova and Costantino Budroni},
   journal = {}, 
   number = {},
   pages = {},
   publisher = {},
-  title = {Designing optimal protocols in Bayesian quantum parameter estimation with higher-order operations},
+  title = {Indefinite causal order in boxworld theories},
   volume = {},
   month = {},
-  year = {2023},
-  doi = {10.48550/arXiv.2311.01513},
+  year = {2024},
+  abstract = {An astonishing feature of higher-order quantum theory is that it can accommodate indefinite causal order. In the simplest bipartite setting, there exist signaling correlations for which it is fundamentally impossible to ascribe a definite causal order for the parties' actions. Moreover, the assumptions required to arrive at such a statement (local quantum transformations and well-behaved probabilities) result in a nontrivial set of correlations, whose boundary is, to date, uncharacterized. In this work, we investigate indefinite causal order in boxworld theories. We construct a higher-order theory whose descriptor is the generalized bit (gbit)---the natural successor of the classical bit and quantum qubit. By fixing the local transformations in boxworld and asking about the global causal structure, we find that we trivially recover the full set of two-way signaling correlations. In light of this, we motivate and propose two physical principles in order to limit the set of achievable correlations: nonsignaling preservation and no signaling without system exchange. We find that a higher-order boxworld theory that respects these physical principles leads to (i) a nontrivial set of achievable correlations and (ii) a violation of some causal inequalities that is higher than what can be achieved in higher-order quantum theory. These results lead us to conjecture that the set of correlations of our higher-order boxworld theory is an outer approximation to the set of correlations produced by higher-order quantum theory.},
+  archivePrefix={arXiv},
+  eprint={2411.00951},
+  primaryClass={quant-ph},
+  %pdf = {},   
+  preview = {bavaresco2024indefinite.jpg},
+  selected = {true}
+}
+
+@misc{kristjansson2024exponential,
+  author = {Hl\'er Kristj\'ansson and Tatsuki Odake and Satoshi Yoshida and Philip Taranto and Jessica Bavaresco and Marco T\'ulio Quintino and Mio Murao},
+  journal = {}, 
+  number = {},
+  pages = {},
+  publisher = {},
+  title = {Exponential separation in quantum query complexity of the quantum switch with respect to simulations with standard quantum circuits},
+  volume = {},
+  month = {},
+  year = {2024},
+  abstract = {Quantum theory is consistent with a computational model permitting black-box operations to be applied in an indefinite causal order, going beyond the standard circuit model of computation. The quantum switch---the simplest such example---has been shown to provide numerous information-processing advantages. Here, we prove that the action of the quantum switch on two n-qubit quantum channels cannot be simulated deterministically and exactly by any causally ordered quantum circuit that uses $M$ calls to one channel and one call to the other, if $M\leq max(2,2^n-1)$. This demonstrates an exponential separation in quantum query complexity of indefinite causal order compared to standard quantum circuits.},
+  archivePrefix={arXiv},
+  eprint={2409.18420},
+  primaryClass={quant-ph},
+  %pdf = {},   
+  preview = {kristjansson2024exponential.jpg},
+  selected = {false}
+}
+
+@misc{bavaresco2024can,
+  author = {Jessica Bavaresco and Satoshi Yoshida and Tatsuki Odake and Hl\'er Kristj\'ansson and Philip Taranto and Mio Murao and Marco T\'ulio Quintino},
+  journal = {}, 
+  number = {},
+  pages = {},
+  publisher = {},
+  title = {Can the quantum switch be deterministically simulated?},
+  volume = {},
+  month = {},
+  year = {2024},
+  abstract = {Higher-order transformations that act on a certain number of input quantum channels in an indefinite causal order---such as the quantum switch---cannot be described by standard quantum circuits that use the same number of calls of the input quantum channels. However, the question remains whether they can be simulated, i.e., whether their action on their input channels can be deterministically reproduced, for all arbitrary inputs, by a quantum circuit that uses a larger number of calls of the input channels. Here, we prove that when only one extra call of each input channel is available, the quantum switch cannot be simulated by any quantum circuit. We demonstrate that this result is robust by showing that, even when probabilistic and approximate simulations are considered, higher-order transformations that are close to the quantum switch can be at best simulated with a probability strictly less than one. This result stands in stark contrast with the known fact that, when the quantum switch acts exclusively on unitary channels, its action can be simulated.},
+  archivePrefix={arXiv},
+  eprint={2409.18202},
+  primaryClass={quant-ph},
+  %pdf = {},   
+  preview = {bavaresco2024can.jpg},
+  selected = {true}
+}
+
+@article{bavaresco2023designing,
+  author = {Jessica Bavaresco and Patryk Lipka-Bartosik and Pavel Sekatski and Mohammad Mehboudi},
+  title = {Designing optimal protocols in Bayesian quantum parameter estimation with higher-order operations},
+  journal = {Physical Review Research},
+  volume = {6},
+  issue = {2},
+  pages = {023305},
+  numpages = {18},
+  year = {2024},
+  doi = {10.1103/PhysRevResearch.6.023305},
+  publisher = {American Physical Society},
   abstract = {Using quantum systems as sensors or probes has been shown to greatly improve the precision of parameter estimation by exploiting unique quantum features such as entanglement. A major task in quantum sensing is to design the optimal protocol, i.e., the most precise one. It has been solved for some specific instances of the problem, but in general even numerical methods are not known. Here, we focus on the single-shot Bayesian setting, where the goal is to find the optimal initial state of the probe (which can be entangled with an auxiliary system), the optimal measurement, and the optimal estimator function. We leverage the formalism of higher-order operations to develop a method based on semidefinite programming that finds a protocol that is close to the optimal one with arbitrary precision. Crucially, our method is not restricted to any specific quantum evolution, cost function or prior distribution, and thus can be applied to any estimation problem. Moreover, it can be applied to both single or multiparameter estimation tasks. We demonstrate our method with three examples, consisting of unitary phase estimation, thermometry in a bosonic bath, and multiparameter estimation of an SU(2) transformation. Exploiting our methods, we extend several results from the literature. For example, in the thermometry case, we find the optimal protocol at any finite time and quantify the usefulness of entanglement. Additionally, we show that when the cost function is the mean squared error, projective measurements are optimal for estimation.},
   archivePrefix={arXiv},
   eprint={2311.01513},
   primaryClass={quant-ph},
-  pdf = {papers/2311.01513.pdf},   
+  %pdf = {papers/2311.01513.pdf},   
   preview = {bavaresco2023designing.jpg},
   selected = {true}
 }
@@ -37,7 +94,7 @@
   archivePrefix={arXiv},
   eprint={2202.05346},
   primaryClass={quant-ph},
-  pdf = {papers/Optica.10.561(2023).pdf},   
+  %pdf = {papers/Optica.10.561(2023).pdf},   
   preview = {cao2023semi.jpg},
   selected = {false}
 }
@@ -57,7 +114,7 @@
   archivePrefix={arXiv},
   eprint={2110.03233},
   primaryClass={quant-ph},
-  pdf = {papers/Quantum.6.788(2022).pdf},   
+  %pdf = {papers/Quantum.6.788(2022).pdf},   
   preview = {milz2022resource.jpg},
   selected = {false}
 }
@@ -77,7 +134,7 @@
     archivePrefix={arXiv},
     eprint={2105.13369},
     primaryClass={quant-ph},
-    pdf = {papers/JMathPhys.63.042203(2022).pdf},   
+    %pdf = {papers/JMathPhys.63.042203(2022).pdf},   
     preview = {bavaresco2022unitary.jpg},
     selected = {false}
 }
@@ -98,7 +155,7 @@ genuine multipartite entanglement was coined. All these considerations originate
   archivePrefix={arXiv},
   eprint={2106.01372},
   primaryClass={quant-ph},
-  pdf = {papers/Quantum.6.695(2022).pdf},   
+  %pdf = {papers/Quantum.6.695(2022).pdf},   
   preview = {yamasaki2022activation.jpg},
   selected = {false}
 }
@@ -119,7 +176,7 @@ genuine multipartite entanglement was coined. All these considerations originate
   archivePrefix={arXiv},
   eprint={2011.08300},
   primaryClass={quant-ph},
-  pdf = {papers/PhysRevLett.127.200504(2021).pdf},   
+  %pdf = {papers/PhysRevLett.127.200504(2021).pdf},   
   preview = {bavaresco2021strict.jpg},
   selected = {true}
 }
@@ -140,7 +197,7 @@ genuine multipartite entanglement was coined. All these considerations originate
   archivePrefix={arXiv},
   eprint={1910.07684},
   primaryClass={quant-ph},
-  pdf = {papers/PhysRevA.101.032302(2020).pdf},   
+  %pdf = {papers/PhysRevA.101.032302(2020).pdf},   
   preview = {chen2020verification.jpg},
   selected = {false}
 }
@@ -160,7 +217,7 @@ genuine multipartite entanglement was coined. All these considerations originate
   archivePrefix={arXiv},
   eprint={1903.10526},
   primaryClass={quant-ph},
-  pdf = {papers/Quantum.3.176(2019).pdf},   
+  %pdf = {papers/Quantum.3.176(2019).pdf},   
   preview = {bavaresco2019semi.jpg},
   selected = {false}  
 }
@@ -179,7 +236,7 @@ genuine multipartite entanglement was coined. All these considerations originate
     archivePrefix={arXiv},
     eprint={1709.07344},
     primaryClass={quant-ph},
-    pdf = {papers/NatPhys.14.1032(2018).pdf},
+    %pdf = {papers/NatPhys.14.1032(2018).pdf},
     preview = {bavaresco2018measurements.jpg},
     selected = {true}
 }
@@ -199,7 +256,7 @@ genuine multipartite entanglement was coined. All these considerations originate
     archivePrefix={arXiv},
     eprint={1708.01493},
     primaryClass={cond-mat.mtrl-sci},
-    pdf = {papers/JChemPhys.148.144704(2018).pdf},
+    %pdf = {papers/JChemPhys.148.144704(2018).pdf},
     preview = {novaco2018simulations.jpg},
     selected = {false}
 }
@@ -219,7 +276,7 @@ genuine multipartite entanglement was coined. All these considerations originate
     archivePrefix = {arXiv},
     eprint={1705.06343},
     primaryClass={quant-ph},
-    pdf = {papers/JMathPhys.58.092102(2017).pdf},
+    %pdf = {papers/JMathPhys.58.092102(2017).pdf},
     preview = {guerini2017operational.jpg},
     selected = {false}
 }
@@ -238,7 +295,7 @@ genuine multipartite entanglement was coined. All these considerations originate
   archivePrefix={arXiv},
   eprint={1612.00751},
   primaryClass={quant-ph},
-  pdf = {papers/NatComms.8.15971(2017).pdf},
+  %pdf = {papers/NatComms.8.15971(2017).pdf},
   preview = {steinlechner2017distribution.jpg},
   selected = {false}
 }
@@ -260,9 +317,9 @@ N measurements of k outcomes. We consider the cases of either general positive o
   archivePrefix={arXiv},
   eprint={1704.02994},
   primaryClass={quant-ph},
-  pdf = {papers/PhysRevA.96.022110(2017).pdf},
+  %pdf = {papers/PhysRevA.96.022110(2017).pdf},
   preview = {bavaresco2017most.jpg},
-  selected = {true}
+  selected = {false}
 }
 
 @article{novaco2015incipient,
@@ -282,7 +339,7 @@ N measurements of k outcomes. We consider the cases of either general positive o
   archivePrefix={arXiv},
   eprint={1601.00700},
   primaryClass={cond-mat.mtrl-sci},
-  pdf = {papers/PhysRevB.91.161412R(2015).pdf},
+  %pdf = {papers/PhysRevB.91.161412R(2015).pdf},
   preview = {novaco2015incipient.jpg},
   selected = {false}
 }

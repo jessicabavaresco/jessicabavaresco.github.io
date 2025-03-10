@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-description: SNSF Postdoctoral Fellow | <a href='https://www.unige.ch/gap/qic/'>Department of Applied Physics</a>, University of Geneva | Geneva, Switzerland <br>
+description: Research scientist (<em>chargée de recherche</em>) | <a href='https://qi.lip6.fr'>Quantum Information Team</a>, <a href='https://www.lip6.fr/jessica.bavaresco'>LIP6</a> | CNRS & Sorbonne University | Paris, France <br>
 
 
 profile:
@@ -10,8 +10,12 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-[comment]: #    <p>Office: </p>
-[comment]: #    <p>Tel:  <b></b></p>
+    <p>Room 25-26/325</p>
+    <p>Campus Pierre et Marie Curie</p>
+    <p>4 Pl. Jussieu </p>
+    <p>75005 Paris </p>
+    <p>France </p>
+    <p>Phone: +33 1 44 27 87 66 <b></b></p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -19,11 +23,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, my name is Jessica Bavaresco. I'm a quantum information scientist. Currently, I am carrying out an <a href='https://www.snf.ch/en/m1NtWp4nTELQixlu/funding/horizon-europe-swiss-postdoctoral-fellowships'>SNSF Swiss Postdoctoral Fellowship</a> in the <a href='https://www.unige.ch/gap/qic/theory/team'>Quantum Theory Group</a> of Prof. Nicolas Brunner at the University of Geneva, Switzerland. 
+Hi, my name is Jessica Bavaresco. As of 2025, I'm a permanent research scientist (<em>CNRS chargée de recherche</em>) in the <a href='https://qi.lip6.fr'>QI team</a> at <a href='https://www.lip6.fr/jessica.bavaresco'>LIP6,</a> a CNRS & Sorbonne University computer science laboratory in Paris, France. I work with quantum information science.
 
-I obtained a PhD in Physics from the University of Vienna, Austria, in 2021.
+My main research interests are in higher-order operations and quantum correlations. Some of the topics I have worked on recently involve quantum networks, Bell nonlocality, channel discrimination, genuine multipartite entanglement, metrology, boxworld correlations, and indefinite causal order.
 
-My main research interests are in higher-order operations and quantum correlations. Some of the topics I have worked on recently involve channel discrimination, genuine multipartite entanglement, metrology, boxworld correlations, and causality in quantum mechanics.
+I was previously a SNSF Swiss Postdoctoral Fellow at the University of Geneva, Switzerland (2022-2025) and before that, I postdoc in the Young Independent Research Group (YIRG), at IQOQI Vienna, Austria (2021-2022). I obtained a PhD in pshysics at the University of Vienna, Austria, in 2021. 
 
 Here you will find a collection of all my papers and theses, code repositories, some of my talks and posters, my CV, and recent news.
 
