@@ -15,7 +15,6 @@ profile:
     <p>4 Pl. Jussieu </p>
     <p>75005 Paris </p>
     <p>France </p>
-    <p>Phone: +33 1 44 27 87 66 <b></b></p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
