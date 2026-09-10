@@ -1,0 +1,23 @@
+{% assign sorted_courses = include.courses | sort: "course_start_date" | reverse %}
+<ul class="course-list" role="list">
+  {% for course in sorted_courses %}
+  <li>
+    <a class="course-list-link" href="{{ course.url | relative_url }}">
+      <span class="course-list-year">{{ course.course_year }}</span>
+      <div class="course-list-details">
+        {% if include.heading_level == 3 %}
+        <h3>{{ course.title | escape }}</h3>
+        {% else %}
+        <h2>{{ course.title | escape }}</h2>
+        {% endif %}
+        <p class="course-list-description">{{ course.description | escape }}</p>
+        {% if course.course_event %}<p class="course-list-event">{{ course.course_event | escape }}</p>{% endif %}
+        {% if course.course_location or course.course_dates %}
+        <p class="course-list-meta">{{ course.course_location | escape }}{% if course.course_location and course.course_dates %} · {% endif %}{{ course.course_dates | escape }}</p>
+        {% endif %}
+      </div>
+      <span class="course-list-arrow" aria-hidden="true">&rarr;</span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

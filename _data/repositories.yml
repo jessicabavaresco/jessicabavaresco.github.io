@@ -8,3 +8,24 @@ github_repos:
   - mtcq/channel_discrimination
   - jessicabavaresco/SDI-causality
   - jessicabavaresco/most-incompatible-measurements
+
+# Repository descriptions and languages from GitHub; kept locally for reliable cards.
+repo_details:
+  "jessicabavaresco/singleshot-bayesian-estimation":
+    description: "Code repository for \"Designing optimal protocols in Bayesian quantum parameter estimation with higher-order operations\""
+    language: "MATLAB"
+  "mtcq/channel_discrimination":
+    description: "Code to accompany: Strict hierarchy between parallel, sequential, and indefinite-causal-order strategies for channel discrimination"
+    language: "Mathematica"
+  "jessicabavaresco/most-incompatible-measurements":
+    description: "Code repository for \"Most incompatible measurements for robust steering tests\""
+    language: "MATLAB"
+  "jessicabavaresco/SDI-causality":
+    description: "Code repository for \"Semi-device-independent certification of indefinite causal order\""
+    language: "MATLAB"
+  "mtcq/switch_simulation":
+    description: "Code to accompany: Can the quantum switch be deterministically simulated?"
+    language: "MATLAB"
+  "mtcq/unitary_channel_discrimination":
+    description: "Code to accompany: Unitary channel discrimination beyond group structures: Advantages of sequential and indefinite-causal-order strategies"
+    language: "Mathematica"

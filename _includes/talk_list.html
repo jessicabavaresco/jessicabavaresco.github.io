@@ -1,0 +1,19 @@
+<ul class="course-list talk-list" role="list">
+  {% for talk in include.talks %}
+  <li>
+    <a class="course-list-link" href="{{ talk.url | relative_url }}">
+      <span class="course-list-year">{% if talk.talk_start_year and talk.talk_start_year != talk.talk_year %}{{ talk.talk_start_year }}–{% endif %}{{ talk.talk_year }}</span>
+      <div class="course-list-details">
+        {% if include.heading_level == 3 %}
+        <h3>{{ talk.title | escape }}</h3>
+        {% else %}
+        <h2>{{ talk.title | escape }}</h2>
+        {% endif %}
+        {% if talk.talk_conferences_summary %}<p class="course-list-event">{{ talk.talk_conferences_summary | escape }}</p>{% endif %}
+        {% if talk.talk_seminars_summary %}<p class="course-list-meta">{{ talk.talk_seminars_summary | escape }}</p>{% endif %}
+      </div>
+      <span class="course-list-arrow" aria-hidden="true">&rarr;</span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

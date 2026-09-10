@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will be giving talk this week in the conference <a href="https://events.perimeterinstitute.ca/event/69/">Causalworlds<a/> at Perimeter Institute, Canada, as an invited speaker.
+I will be giving a talk this week in the conference <a href="https://events.perimeterinstitute.ca/event/69/">Causalworlds<a/> at Perimeter Institute, Canada, as an invited speaker.

@@ -6,7 +6,7 @@ layout: default
 
           <header class="post-header">
             <h1 class="post-title">{{ page.title }}  {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
-            <p class="post-description">{{ page.description }}</p>
+            {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
           </header>
 
           <article>
@@ -20,6 +20,12 @@ layout: default
             {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
           </div>
           {%- endif %}
+
+          {% if page.category == 'talks' %}
+          <p class="mt-4"><a href="{{ '/talks/' | relative_url }}">Back to Talks</a></p>
+          {% elsif page.category == 'posters' %}
+          <p class="mt-4"><a href="{{ '/posters/' | relative_url }}">Back to Posters</a></p>
+          {% endif %}
 
           {%- if site.giscus.repo and page.giscus_comments -%}
             {% include giscus.html %}

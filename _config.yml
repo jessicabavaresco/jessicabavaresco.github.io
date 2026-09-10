@@ -212,6 +212,11 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  # Keep the theme examples in the repository, but do not publish them.
+  - _posts
+  - blog
+  - _pages/teaching.md
+  - assets/jupyter/blog.ipynb
 keep_files:
   - CNAME
   - .nojekyll
@@ -288,6 +293,8 @@ scholar:
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
   bibtex_filters: [latex, smallcaps, superscript]
+  # Keep raw abstracts available to the template, including their math delimiters.
+  bibtex_skip_fields: [month_numeric]
 
   replace_strings: true
   join_strings: true
@@ -328,7 +335,7 @@ external_links:
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # Use original images; CSS scales them without requiring ImageMagick at build time.
   widths:
     - 480
     - 800

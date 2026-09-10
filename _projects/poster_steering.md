@@ -2,7 +2,8 @@
 layout: page
 title: Measurement incompatibility
 description: "Most incompatible measurements for robust steering tests"
-img: assets/img/posters/poster-steering.pdf
+img: assets/img/posters/poster-steering.jpg
+img_responsive: false
 importance: 4
 category: posters
 related_publications: bavaresco2017most
@@ -16,8 +17,12 @@ Presented at:
 - Winter School on Complex Networks (Obergurgl, Austria, 2017) 
 - 37th SFB Meeting (Innsbruck, Austria, 2017) 
 
+[View or download the poster (PDF)]({{ '/assets/img/posters/poster-steering.pdf' | relative_url }})
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/posters/poster-steering.pdf" title="Most incompatible measurements for robust steering tests" class="img-fluid rounded z-depth-1" %}
+        <a href="{{ 'assets/img/posters/poster-steering.pdf' | relative_url }}">
+        {% include figure.html path="assets/img/posters/poster-steering.jpg" responsive=false title="Most incompatible measurements for robust steering tests" class="img-fluid rounded z-depth-1" %}
+        </a>
     </div>
-
+</div>

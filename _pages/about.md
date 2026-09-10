@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-description: Research scientist (<em>chargée de recherche</em>) | <a href='https://qi.lip6.fr'>Quantum Information Team</a>, <a href='https://www.lip6.fr/jessica.bavaresco'>LIP6</a> | CNRS & Sorbonne University | Paris, France <br>
+description: Research faculty member | <a href='https://qi.lip6.fr'>Quantum Information Team</a>, <a href='https://www.lip6.fr/actualite/personnes-fiche.php?ident=P1705'>LIP6</a> | CNRS & Sorbonne University | Paris, France <br>
 
 
 profile:
@@ -10,11 +10,10 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Room 25-26/325</p>
-    <p>Campus Pierre et Marie Curie</p>
+    <p>Office 25-26/325</p>
+    <p>Sorbonne University – Campus Pierre et Marie Curie</p>
     <p>4 Pl. Jussieu </p>
-    <p>75005 Paris </p>
-    <p>France </p>
+    <p>75005 Paris, France</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -22,11 +21,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, my name is Jessica Bavaresco. As of 2025, I'm a permanent research scientist (<em>CNRS chargée de recherche</em>) in the <a href='https://qi.lip6.fr'>QI team</a> at <a href='https://www.lip6.fr/jessica.bavaresco'>LIP6,</a> a CNRS & Sorbonne University computer science laboratory in Paris, France. I work with quantum information science.
+Hi, my name is Jessica Bavaresco. As of 2025, I'm a research faculty member (<em>chargée de recherche CNRS</em>) in <a href='https://www.lip6.fr/actualite/personnes-fiche.php?ident=P1705'>LIP6,</a> a CNRS & Sorbonne University computer science laboratory in Paris, France. I am part of the <a href='https://qi.lip6.fr/'>QI team</a> and I work with quantum information science.
 
 My main research interests are in higher-order operations and quantum correlations. Some of the topics I have worked on recently involve quantum networks, Bell nonlocality, channel discrimination, genuine multipartite entanglement, metrology, boxworld correlations, and indefinite causal order.
 
-I was previously a SNSF Swiss Postdoctoral Fellow at the University of Geneva, Switzerland (2022-2025) and before that, I was a postdoc in the Young Independent Research Group (YIRG) at IQOQI Vienna, Austria (2021-2022). I obtained a PhD in physics at the University of Vienna, Austria, in 2021. 
+I was previously a SNSF Swiss Postdoctoral Fellow at the University of Geneva, Switzerland (2022-2025) and before that, I was a postdoc in the Young Independent Research Group (YIRG) at IQOQI Vienna, Austria (2021-2022). I obtained a PhD in physics at the University of Vienna, Austria, in 2021, supervised by Prof. Marcus Huber.
 
 Here you will find a collection of all my papers and theses, code repositories, some of my talks and posters, my CV, and recent news.
 

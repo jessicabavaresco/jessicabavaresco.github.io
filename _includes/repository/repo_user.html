@@ -1,6 +1,8 @@
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.username }}">
-    <img class="repo-img-light w-100" alt="{{ include.username }}" src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&show_icons=true">
-    <img class="repo-img-dark w-100" alt="{{ include.username }}" src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&show_icons=true">
-  </a>
-</div>
+<a class="repository-card" href="https://github.com/{{ include.username | escape }}">
+  <span class="repository-card-owner">GitHub profile</span>
+  <h3 class="repository-card-title">{{ include.username | escape }}</h3>
+  <p class="repository-card-description">Explore my research code and public repositories.</p>
+  <span class="repository-card-footer">
+    <span class="repository-card-action">View profile on GitHub <span aria-hidden="true">↗</span></span>
+  </span>
+</a>

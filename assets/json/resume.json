@@ -9,7 +9,7 @@
     "phone": " +33 1 44 27 87 66 ",
     "url": "https://qi.lip6.fr/team/",
     "summary": "",
-    "address": "Room 25-26/325, 4 Pl. Jussieu, 75005 Paris, France",
+    "address": "Office 25-26/325, 4 Pl. Jussieu, 75005 Paris, France",
     "location": {
       "address": "",
       "postalCode": "",
@@ -28,7 +28,7 @@
   "work": [
     {
         "name": "LIP6, CNRS & Sorbonne University, France",
-        "position": "Permanent research scientist (chargée de recherche)",
+        "position": "Research faculty member (chargée de recherche CNRS)",
         "url": "https://qi.lip6.fr/team/",
         "startDate": "2025-02-01",
         "endDate": "",
@@ -99,7 +99,7 @@
       "courses": [
         "Thesis: Certifying complex quantum properties: High-dimensional entanglement and indefinite causal order",
         "Supervisor: Prof. Marcus Huber",
-        "<b>Secondment: The University of Tokyo, Japan, with Prof. Mio Murao (2019)</b>"
+        "<b>Internship: The University of Tokyo, Japan, with Prof. Mio Murao (2019)</b>"
       ]
     },
     {

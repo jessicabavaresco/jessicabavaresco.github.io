@@ -2,10 +2,20 @@
 layout: page
 title: Materials
 permalink: /materials/
-description: Here are some of my talks and posters.
+description: Here are some of my courses, talks, and posters.
 nav: true
 nav_order: 4
-display_categories: [talks, posters]
+dropdown: true
+children:
+  - title: Courses
+    permalink: /courses/
+  - title: divider
+  - title: Talks
+    permalink: /talks/
+  - title: divider
+  - title: Posters
+    permalink: /posters/
+display_categories: [courses, talks, posters]
 horizontal: false
 ---
 
@@ -18,7 +28,11 @@ horizontal: false
   {%- assign categorized_projects = site.projects | where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
+  {% if category == 'courses' -%}
+  {% include course_list.html courses=sorted_projects heading_level=3 %}
+  {% elsif category == 'talks' -%}
+  {% include talk_list.html talks=sorted_projects heading_level=3 %}
+  {% elsif page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
     {%- for project in sorted_projects -%}
