@@ -2,7 +2,7 @@
 layout: page
 permalink: /code/
 title: Code
-description: All the code I develop for my research is on GitHub. These are my user and repositories.
+description: All the code I develop for my research is on GitHub. Here are my profile and repositories.
 nav: true
 nav_order: 3
 ---

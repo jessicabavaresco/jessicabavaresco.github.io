@@ -2,7 +2,7 @@
 layout: page
 title: Courses
 permalink: /courses/
-description: Courses and tutorials presented in Summer schools & conferences
+description: Courses and tutorials presented at summer schools & conferences
 nav: false
 ---
 

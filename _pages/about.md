@@ -21,11 +21,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, my name is Jessica Bavaresco. As of 2025, I'm a research faculty member (<em>chargée de recherche CNRS</em>) in <a href='https://www.lip6.fr/actualite/personnes-fiche.php?ident=P1705'>LIP6,</a> a CNRS & Sorbonne University computer science laboratory in Paris, France. I am part of the <a href='https://qi.lip6.fr/'>QI team</a> and I work with quantum information science.
+Hi, my name is Jessica Bavaresco. I am a research faculty member (<em>chargée de recherche CNRS</em>) in the <a href='https://qi.lip6.fr/'>Quantum Information</a> team at <a href='https://www.lip6.fr/actualite/personnes-fiche.php?ident=P1705'>LIP6</a>, Sorbonne Université and CNRS, in Paris, France.
 
-My main research interests are in higher-order operations and quantum correlations. Some of the topics I have worked on recently involve quantum networks, Bell nonlocality, channel discrimination, genuine multipartite entanglement, metrology, boxworld correlations, and indefinite causal order.
+My research is in quantum information theory, with a particular focus on **higher-order quantum computing** and **quantum correlations**. I am interested in how higher-order techniques can help us tackle a broad range of quantum information processing tasks, such as characterizing quantum resource manipulation and certification in networks, understanding the complexity of simulating indefinite causal order, building optimal strategies for channel discrimination and metrology, and investigating the foundations of quantum theory.
 
-I was previously a SNSF Swiss Postdoctoral Fellow at the University of Geneva, Switzerland (2022-2025) and before that, I was a postdoc in the Young Independent Research Group (YIRG) at IQOQI Vienna, Austria (2021-2022). I obtained a PhD in physics at the University of Vienna, Austria, in 2021, supervised by Prof. Marcus Huber.
+I was previously an SNSF Swiss Postdoctoral Fellow at the University of Geneva, Switzerland (2022-2025) and before that, I was a postdoc in the Young Independent Research Group (YIRG) at IQOQI Vienna, Austria (2021-2022). I obtained a PhD in physics at the University of Vienna, Austria, in 2021, supervised by Prof. Marcus Huber.
 
 Here you will find a collection of all my papers and theses, code repositories, some of my talks and posters, my CV, and recent news.
 
