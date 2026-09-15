@@ -10,7 +10,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Office 25-26/325</p>
     <p>Sorbonne University – Campus Pierre et Marie Curie</p>
     <p>4 Pl. Jussieu </p>
     <p>75005 Paris, France</p>

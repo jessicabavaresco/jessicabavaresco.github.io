@@ -2,6 +2,35 @@
  * CV shared styles
  *****************************/
 
+.cv .education-institution {
+  font-size: 0.95rem;
+}
+
+.cv .items > li.education-experience {
+  list-style: none;
+  margin: 0.85rem 0 0.35rem 0.5rem;
+  padding: 0.4rem 0 0.4rem 0.85rem;
+  border-left: 3px solid var(--global-theme-color);
+  line-height: 1.5;
+
+  .education-experience-label {
+    display: block;
+    margin-bottom: 0.15rem;
+    color: var(--global-theme-color);
+    font-weight: 600;
+  }
+
+  .education-experience-details {
+    display: block;
+  }
+
+  .education-experience-supervisors {
+    list-style-type: circle;
+    margin: 0;
+    padding-left: 1.25rem;
+  }
+}
+
 div.container-link-button {
   margin-right: 0.5rem;
 }

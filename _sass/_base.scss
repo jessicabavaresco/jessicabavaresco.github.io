@@ -616,6 +616,10 @@ a.repository-card {
 // Publications
 
 .publications {
+  &.papers-list img.preview {
+    box-shadow: none !important;
+  }
+
   margin-top: 2rem;
 
   h1 {

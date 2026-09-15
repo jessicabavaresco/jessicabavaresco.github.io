@@ -35,13 +35,31 @@
       </div>
       <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
         <h6 class="title font-weight-bold ml-1 ml-md-4"><a href="{{ content.url }}">{{content.studyType}}</a></h6>
-        <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{content.institution}}</h6>
+        <h6 class="education-institution ml-1 ml-md-4">{{content.institution}}</h6>
         <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">{{content.area}}</h6>
         <ul class="items">
           {% for item in content.courses %}
+          {% assign item_text = item | strip_html %}
+          {% assign item_label = item_text | split: ':' | first %}
+          {% if item_label == 'Internship' or item_label == 'Bachelor exchange program' %}
+          {% assign label_prefix = item_label | append: ':' %}
+          {% assign experience_details = item_text | remove_first: label_prefix | strip %}
+          {% assign experience_institution = experience_details | split: ', with ' | first %}
+          {% assign supervisor_and_year = experience_details | split: ', with ' | last %}
+          {% assign experience_supervisor = supervisor_and_year | split: ' (' | first %}
+          {% assign experience_year = supervisor_and_year | split: ' (' | last | remove: ')' %}
+          <li class="education-experience">
+            <strong class="education-experience-label">{{ item_label | escape }} ({{ experience_year | escape }})</strong>
+            <h6 class="education-institution education-experience-details">{{ experience_institution | escape }}</h6>
+            <ul class="education-experience-supervisors">
+              <li><h6 class="education-institution education-experience-details">Supervisor: {{ experience_supervisor | escape }}</h6></li>
+            </ul>
+          </li>
+          {% else %}
           <li>
             <span class="item">{{ item }}</span>
           </li>
+          {% endif %}
           {% endfor %}
         </ul>
       </div>
