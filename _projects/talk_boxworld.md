@@ -1,6 +1,8 @@
 ---
 layout: page
 title: "Indefinite causal order in boxworld theories"
+img: assets/img/talks/talk-boxworld-preview.png
+img_responsive: false
 importance: 0.25
 category: talks
 talk_start_year: 2024
@@ -19,4 +21,12 @@ Presented at:
 - **Seminar:** Hong Kong University (HKU), group of Prof. Giulio Chiribella (Hong Kong, 2024)
 - **Conference:** INAQT Workshop 2024 – International Network on Acausal Quantum Technology (Vienna, Austria, 2024)
 
-*Slides coming soon.*
+[View or download the slides (PDF)]({{ '/assets/pdf/talk-boxworld.pdf' | relative_url }})
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="{{ '/assets/pdf/talk-boxworld.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+        {% include figure.html path=page.img responsive=false alt="Indefinite causal order in boxworld theories" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+</div>

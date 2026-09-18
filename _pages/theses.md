@@ -8,7 +8,7 @@ nav_order: 8
 ---
 <!-- _pages/theses.md -->
 
-<div class="publications">
+<div class="publications theses-list">
 
 {% bibliography -f theses %}
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Unitary channel discrimination beyond group structure: Advantages of sequential and indefinite-causal-order strategies"
+title: "Unitary channel discrimination beyond group structures"
 img: assets/img/talks/talk-unitarydiscrimination-preview.jpg
 img_responsive: false
 importance: 1
