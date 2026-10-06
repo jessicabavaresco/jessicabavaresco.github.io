@@ -4,7 +4,7 @@ permalink: /code/
 title: Code
 description: All the code I develop for my research is on GitHub. Here are my profile and repositories.
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 <hr>

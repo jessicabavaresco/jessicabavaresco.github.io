@@ -8,4 +8,4 @@ inline: true
 related_posts: false
 ---
 
-Today I am giving an invited talk, “Can the quantum switch be deterministically simulated?”, at the conference [HOAQS 2025](https://qute.sk/from-high-order-to-high-altitude-hoaqs-2025-in-the-high-tatras-2/) in Stará Lesná, Slovakia.
+I am giving an invited talk, “[Can the quantum switch be deterministically simulated?](https://doi.org/10.1038/s41467-025-64996-6)”, at the conference [HOAQS 2025](https://qute.sk/from-high-order-to-high-altitude-hoaqs-2025-in-the-high-tatras-2/) in Stará Lesná, Slovakia.

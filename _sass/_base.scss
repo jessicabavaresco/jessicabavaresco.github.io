@@ -618,7 +618,8 @@ a.repository-card {
 .publications {
   &.papers-list img.preview,
   &.selected-papers-list img.preview,
-  &.theses-list img.preview {
+  &.theses-list img.preview,
+  &.material-references img.preview {
     box-shadow: none !important;
   }
 

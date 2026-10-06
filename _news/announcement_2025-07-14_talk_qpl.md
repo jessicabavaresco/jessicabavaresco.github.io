@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Today I'm presenting “[Indefinite causal order in boxworld theories](https://arxiv.org/abs/2411.00951)” as a contributed plenary talk at [QPL 2025](https://qpl2025.github.io/program/) in Varna, Bulgaria.
+I'm presenting the paper “[Indefinite causal order in boxworld theories](https://arxiv.org/abs/2411.00951)” as a contributed plenary talk at [QPL 2025](https://qpl2025.github.io/program/) in Varna, Bulgaria.

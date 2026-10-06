@@ -73,7 +73,7 @@
     <!-- Links/Buttons -->
     <div class="links">
     {% if entry.abstract %}
-      <button type="button" class="abstract btn btn-sm z-depth-0" aria-expanded="false" aria-controls="abstract-{{ entry.key }}">Abs</button>
+      <button type="button" class="abstract btn btn-sm z-depth-0" aria-expanded="false" aria-controls="abstract-{{ entry.key }}">{{ entry.abstract_label | default: 'Abs' | escape }}</button>
     {% endif %}
     {% if entry.eprint %}
       <a href="https://arxiv.org/abs/{{ entry.eprint }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
@@ -88,7 +88,7 @@
       <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">Journal</a>
     {% endif %}
     {% if entry.url %}
-      <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">Thesis</a>
+      <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">{% if page.permalink == '/theses/' %}Link{% else %}Thesis{% endif %}</a>
     {% endif %}
     {% if entry.pdf %}
       {% if entry.pdf contains '://' %}

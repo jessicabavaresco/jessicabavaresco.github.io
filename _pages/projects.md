@@ -4,7 +4,7 @@ title: Materials
 permalink: /materials/
 description: Here are some of my courses, talks, and posters.
 nav: true
-nav_order: 4
+nav_order: 3
 dropdown: true
 children:
   - title: Courses

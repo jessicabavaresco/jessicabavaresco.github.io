@@ -8,4 +8,4 @@ inline: true
 related_posts: false
 ---
 
-Today I am giving an invited talk on “[Indefinite causal order in boxworld theories](https://arxiv.org/abs/2411.00951)” at the INAQT Workshop 2024 in Vienna, Austria.
+I am giving an invited talk on “[Indefinite causal order in boxworld theories](https://arxiv.org/abs/2411.00951)” at the INAQT Workshop 2024 in Vienna, Austria.

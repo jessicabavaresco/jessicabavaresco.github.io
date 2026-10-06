@@ -107,8 +107,7 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 arxiv_id: bavaresco_j_1 # your arxiv id
 
-contact_note: >
-  Feel free to write me an email.
+contact_note: ""
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-This week, I am giving the tutorial “Causality in higher-order quantum theory” at [QPL 2026](https://qplconference.org/tutorial/) in Amsterdam, the Netherlands. [The slides are available here]({{ "/projects/course_qpl_2026/" | relative_url }}).
+I am giving the tutorial “Causality in higher-order quantum theory” at [QPL 2026](https://qplconference.org/tutorial/) in Amsterdam, the Netherlands. [The slides are available here]({{ "/projects/course_qpl_2026/" | relative_url }}).

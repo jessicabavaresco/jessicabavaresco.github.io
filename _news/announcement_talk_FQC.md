@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will be giving a talk this week in the conference <a href="https://www.eventcreate.com/e/fqc2024">Foundations of Quantum Computing<a/> at Royal Holloway, University of London, UK, as an invited speaker.
+I am giving an invited talk in the conference <a href="https://www.eventcreate.com/e/fqc2024">Foundations of Quantum Computing</a> at Royal Holloway, University of London, UK, about the deterministic simulation of the quantum switch.

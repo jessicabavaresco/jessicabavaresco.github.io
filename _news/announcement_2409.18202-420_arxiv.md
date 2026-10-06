@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our papers about simulating indefinite causal order with quantum circuits are out on the arXiv: <a href="https://arxiv.org/abs/2409.18202">arXiv:2409.18202 [quant-ph]</a> and <a href="https://arxiv.org/abs/2409.18420">arXiv:2409.18420 [quant-ph]</a>
+Our papers about simulating the quantum switch with quantum circuits are out on the arXiv: <a href="https://arxiv.org/abs/2409.18202">arXiv:2409.18202 [quant-ph]</a> and <a href="https://arxiv.org/abs/2409.18420">arXiv:2409.18420 [quant-ph]</a>
